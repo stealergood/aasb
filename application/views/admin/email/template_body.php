@@ -48,7 +48,7 @@
         <div class="info">
             <p><strong>Nama Siswa:</strong> <?php echo $nama_siswa; ?></p>
             <p><strong>Status Kehadiran:</strong> <?php echo $status_kehadiran; ?></p>
-            <p><strong>Pesan:</strong><?php echo $message; ?></p>
+            <p><strong>Pesan:</strong> <?php echo $message; ?></p>
         </div>
         
         <p>Terima kasih atas perhatian Anda.</p>
