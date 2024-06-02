@@ -36,8 +36,8 @@
  * @since	Version 1.0.0
  * @filesource
  */
-defined('BASEPATH') OR exit('No direct script access allowed');
 
+defined('BASEPATH') OR exit('No direct script access allowed');
 /**
  * URI Class
  *
@@ -49,6 +49,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @author		EllisLab Dev Team
  * @link		https://codeigniter.com/userguide3/libraries/uri.html
  */
+
+// #[\AllowDynamicProperties]
 class CI_URI {
 
 	/**
@@ -82,6 +84,7 @@ class CI_URI {
 	 * @var	array
 	 */
 	public $rsegments = array();
+	public $config;
 
 	/**
 	 * Permitted URI chars

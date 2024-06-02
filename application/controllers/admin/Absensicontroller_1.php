@@ -399,7 +399,7 @@ class Absensicontroller extends CI_Controller
 				 
 				 $hapus = '<a class="btn btn-primary btn-sm" href="' . base_url() . 'assets/upload/' . $data_absensi->file_izin . '" target="blank_">Lihat Izin</a> ';
 			}
-			if($data_absensi->keterangan=='A' || $data_absensi->keterangan=='T'){
+			if($data_absensi->keterangan=='A' || $data_absensi->keterangan=='T' || $data_absensi->keterangan=='H' || $data_absensi->keterangan=='I' || $data_absensi->keterangan=='S'){
 				 
 				 $hapus .= '<a class="btn btn-warning btn-sm" href="' . base_url() . 'email/' . $data_absensi->nis_siswa . '" >Kirim Email</a> ';
 			}
